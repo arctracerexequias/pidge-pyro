@@ -1,6 +1,6 @@
-<?php namespace Vx\MegaTheme\Test\Feature;
+<?php namespace Vx\VxModernTheme\Test\Feature;
 
-class MegaThemeTest extends \TestCase
+class VxModernThemeTest extends \TestCase
 {
 
     public function testFeature()

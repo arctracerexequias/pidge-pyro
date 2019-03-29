@@ -1,9 +1,9 @@
 {
-    "name": "vx/mega-theme",
+    "name": "vx/vx_modern-theme",
     "type": "streams-addon",
     "autoload": {
         "psr-4": {
-            "Vx\\MegaTheme\\": "src/"
+            "Vx\\VxModernTheme\\": "src/"
         }
     }
 }

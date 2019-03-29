@@ -1,9 +1,9 @@
-<?php namespace Vx\MegaTheme;
+<?php namespace Vx\VxModernTheme;
 
 use Anomaly\Streams\Platform\Addon\AddonServiceProvider;
 use Illuminate\Routing\Router;
 
-class MegaThemeServiceProvider extends AddonServiceProvider
+class VxModernThemeServiceProvider extends AddonServiceProvider
 {
 
     /**
@@ -47,7 +47,7 @@ class MegaThemeServiceProvider extends AddonServiceProvider
      * @type array|null
      */
     protected $middleware = [
-        //Vx\MegaTheme\Http\Middleware\ExampleMiddleware::class
+        //Vx\VxModernTheme\Http\Middleware\ExampleMiddleware::class
     ];
 
     /**
@@ -57,7 +57,7 @@ class MegaThemeServiceProvider extends AddonServiceProvider
      */
     protected $groupMiddleware = [
         //'web' => [
-        //    Vx\MegaTheme\Http\Middleware\ExampleMiddleware::class,
+        //    Vx\VxModernTheme\Http\Middleware\ExampleMiddleware::class,
         //],
     ];
 
@@ -74,8 +74,8 @@ class MegaThemeServiceProvider extends AddonServiceProvider
      * @type array|null
      */
     protected $listeners = [
-        //Vx\MegaTheme\Event\ExampleEvent::class => [
-        //    Vx\MegaTheme\Listener\ExampleListener::class,
+        //Vx\VxModernTheme\Event\ExampleEvent::class => [
+        //    Vx\VxModernTheme\Listener\ExampleListener::class,
         //],
     ];
 
@@ -85,7 +85,7 @@ class MegaThemeServiceProvider extends AddonServiceProvider
      * @type array|null
      */
     protected $aliases = [
-        //'Example' => Vx\MegaTheme\Example::class
+        //'Example' => Vx\VxModernTheme\Example::class
     ];
 
     /**

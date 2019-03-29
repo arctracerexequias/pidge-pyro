@@ -1,15 +1,14 @@
-let mix = require('laravel-mix');
-
 /*
  |--------------------------------------------------------------------------
- | Mix Asset Management
+ | Avviare Extension by Pixney AB
  |--------------------------------------------------------------------------
- |
- | Mix provides a clean, fluent API for defining some Webpack build steps
- | for your Laravel application. By default, we are compiling the Sass
- | file for the application as well as bundling up all the JS files.
- |
+ | 
+ | The following has been added when you ran the Avviare extension.
+ | 
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+let mix = require('laravel-mix');
+//mix.setPublicPath(path.normalize('.\addons/pidge/vx/vx_modern-theme/resources/dist/'));
+mix.js('C:\\xampp-7.2.14\\htdocs\\pidge.dev\\addons/pidge/vx/vx_modern-theme/resources/js/app.js', 'js')
+.sass('C:\\xampp-7.2.14\\htdocs\\pidge.dev\\addons/pidge/vx/vx_modern-theme/resources/sass/theme.scss', 'css')
+.sourceMaps().version();
