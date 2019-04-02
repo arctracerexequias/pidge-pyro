@@ -81,7 +81,6 @@
         "anomaly/wysiwyg_block-extension": "~1.0.0",
         "pyrocms/starter-theme": "~1.0.0",
         "pyrocms/accelerant-theme": "~1.1.0",
-        "pixney/avviare-extension": "~0.3.0",
         "teamtnt/tntsearch" : "dev-master as 1.0.7"
     },
     "require-dev": {
